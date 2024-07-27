@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    background-color: white;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h4 {
+    color: #333;
+}
+
+h5 {
+    color: #007bff;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+h6 {
+    font-weight: bold;
+    color: #333;
+    margin-top: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.contact-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .col-md-4, .col-md-8 {
+        text-align: center;
+    }
+}

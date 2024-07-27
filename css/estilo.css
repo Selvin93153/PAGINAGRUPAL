@@ -1,0 +1,181 @@
+
+#Titulo {
+    margin: 0;
+    padding: 20px 0;
+    color: rgb(255, 255, 255); /* Ejemplo de color de texto */
+    font-size: 2em; /* Ejemplo de tamaño de fuente */
+    font-weight: bold; /* Ejemplo de hacer el texto en negrita */
+    position: absolute; /* Posiciona el título de forma absoluta */
+    top: 0; /* Alinea el título al borde superior */
+    left: 50%; /* Centra el título horizontalmente */
+    transform: translateX(-50%); /* Ajusta el desplazamiento para centrar */
+}
+
+a {
+    font-size: 1.5em;
+    margin-top: 20px; /* Ajusta el espacio entre el título y el enlace */
+}
+
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+section {
+    padding: 20px 0;
+}
+
+h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #eee;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.project {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    margin-bottom: 10px;
+}
+
+.project p {
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+.carousel-item img {
+    width: 100%;
+    height: 300px; /* Ajusta esta altura según tus necesidades */
+    object-fit: cover;
+    object-position: center;
+}
+
+.personal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0; /* Ajusta el margen según tus necesidades */
+}
+
+.personal h2 {
+    margin-bottom: 5px; /* Ajusta el margen inferior según tus necesidades */
+}
+
+.personal a {
+    text-decoration: none;
+    color: #007bff; /* Ajusta el color del enlace según tus necesidades */
+    margin: 2px 0; /* Espaciado vertical entre los enlaces */
+}
+
+.personal a:hover {
+    text-decoration: underline; /* Efecto al pasar el mouse sobre los enlaces */
+}
+
+.logo {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente si es necesario */
+    height: 100vh; /* Ajusta según el tamaño del contenedor */
+}
+
+.logo {
+    max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
